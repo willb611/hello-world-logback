@@ -8,7 +8,7 @@
             <!-- keep 30 days' worth of history, each file is at most 10MB, up to 10GB -->
             <maxFileSize>10MB</maxFileSize>
             <maxHistory>30</maxHistory>
-            <totalSizeCap>20GB</totalSizeCap>
+            <totalSizeCap>10GB</totalSizeCap>
         </rollingPolicy>
 
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
